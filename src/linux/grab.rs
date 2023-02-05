@@ -74,7 +74,9 @@ macro_rules! convert_buttons {
 convert_buttons!(
     BTN_LEFT, Left,
     BTN_RIGHT, Right,
-    BTN_MIDDLE, Middle
+    BTN_MIDDLE, Middle,
+    BTN_EXTRA, Forward,
+    BTN_SIDE, Back
 );
 
 //TODO: IntlBackslash, kpDelete
